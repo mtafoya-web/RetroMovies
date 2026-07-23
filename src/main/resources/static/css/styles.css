@@ -1,0 +1,63 @@
+html {
+    min-height: 100vh;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+.bg-primary-custom{
+    background-color: darkblue;
+}
+
+.bg-dark-custom {
+    background-color: black;
+}
+
+.bg-aqua-custom {
+    background-color: aqua;
+    border: 5px solid gold;
+}
+
+.promo-card {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.bg-new-releases {
+    background-color: #eaf3ff;
+    border-color: #8bbcff;
+}
+
+.bg-classic-movies {
+    background-color: #eefbea;
+    border-color: #9bd48d;
+}
+
+.bg-family-night {
+    background-color: #fff5dc;
+    border-color: #ffc966;
+}
+
+.bg-late-fee {
+    background-color: #ffeaf2;
+    border-color: #ff9ec2;
+}
+
+.btn-width {
+    min-width: 140px;
+}
+
+#mainNavbar .nav-link {
+    border-bottom: 2px solid transparent;
+    transition: border-color .2s;
+}
+#mainNavbar .nav-link:hover,
+#mainNavbar .nav-link.active {
+    color: white;
+    border-bottom-color: currentColor;
+}
